@@ -12,7 +12,7 @@ export default function Home() {
 
   const [dogNum, setDogNum] = useState(3)
   const [imgDog, setImgdog] = useState([])
-
+//fetching data
   useEffect(() => {
     fetchData();
   }, [dogNum]);
